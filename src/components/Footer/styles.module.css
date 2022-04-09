@@ -1,0 +1,20 @@
+.footerContainer{
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.footerContent{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+    font-size: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.footerContent div span+span{
+    margin-left: 3rem;
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root{
+    --purple:#873EFF;
+    --green: #04D361;
+    --dark: #0E091B;
+    --dark-200: #171228;
+    --gray: #AEAEAE;
+    --light: #F9f9f9;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: var(--light);
+}
+
+body{
+    background: var(--dark);
+    min-width: 100%;
+    min-height: 100%;
+}

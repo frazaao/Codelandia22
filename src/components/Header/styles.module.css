@@ -1,0 +1,63 @@
+.headerContainer{
+    width: 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 48px 0;
+}
+
+.headerContent{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigationContent{
+    display: flex;
+    gap: 4rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navigationContent li a{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigationContent li a.communityButton{
+    padding: 21px 30px;
+    border: 1px solid var(--purple);
+    border-radius: 6px;
+    position: relative;
+}
+
+.navigationContent li a.communityButton::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--purple);
+    position: absolute;
+    inset: 0;
+    transition: all .2s ease-in-out;
+    opacity: 0;
+}
+
+.navigationContent li a.communityButton:hover::after{
+    opacity: 0.1;
+}
+
+.navigationContent li a:not(.communityButton)::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--light);
+    transition: all .2s ease-in-out;
+}
+
+.navigationContent li a:not(.communityButton):hover::after{
+    width: 100%;
+}
