@@ -18,3 +18,16 @@
 .footerContent div span+span{
     margin-left: 3rem;
 }
+
+@media (max-width: 860px){
+    .footerContent{
+        padding-right:3rem;
+        padding-left:3rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footerContent div{
+        text-align: center;
+    }
+}

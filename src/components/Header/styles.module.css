@@ -61,3 +61,21 @@
 .navigationContent li a:not(.communityButton):hover::after{
     width: 100%;
 }
+
+@media (max-width: 860px){
+    .headerContent{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 460px){
+    .navigationContent{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigationContent li a{
+        font-size: 0.75rem;
+    }
+}

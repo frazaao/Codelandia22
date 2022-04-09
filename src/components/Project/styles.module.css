@@ -86,3 +86,9 @@
     
     opacity: 0.1;
 }
+
+@media (max-width: 460px){
+    .bottomButtons{
+        flex-direction: column;
+    }
+}

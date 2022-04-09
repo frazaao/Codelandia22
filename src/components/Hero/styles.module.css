@@ -30,3 +30,28 @@
     margin-top: 2rem;
     font-weight: 500;
 }
+
+@media (max-width: 860px){
+    .heroContent{
+        padding: 0 4rem;
+    }
+}
+
+@media (max-width: 460px){
+    .heroContent{
+        padding: 0 2rem;
+    }
+
+    .heroContent .heroCommunity{
+        font-size: 1rem;
+    }
+
+    .heroContent h2{
+        font-size: 2rem;
+    }
+
+    .heroContent p{
+        font-size: 1rem;
+        max-width: 100%;
+    }
+}
